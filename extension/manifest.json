@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "HomeCast for LG webOS",
+  "version": "1.2.1",
+  "description": "Cast directly to your LG webOS TV over your home network.",
+  "permissions": ["activeTab", "scripting", "storage", "webRequest"],
+  "optional_permissions": ["desktopCapture"],
+  "optional_host_permissions": ["http://*/*", "https://*/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html", "default_title": "HomeCast" }
+}

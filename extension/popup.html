@@ -1,0 +1,9 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="popup.css"><title>HomeCast</title></head><body>
+<header><div class="brand">HOMECAST</div><div id="status" class="status">Checking server…</div></header>
+<label>Server address<input id="server" placeholder="http://192.168.1.10:3000"></label><label>Pairing token<input id="token" type="password" placeholder="Optional"></label>
+<button id="cast" class="primary">Cast to LG TV</button><div id="message" role="status"></div>
+<button id="mirror" class="secondary">Mirror current tab to TV</button><div id="mirrorStatus" class="status-line"></div>
+<button id="capture" class="secondary">Reload &amp; detect stream</button>
+<label id="detectedLabel" class="detected hidden">Detected stream<select id="detected"><option value="">No captured stream yet</option></select></label>
+<section><h2>Remote controls</h2><div class="controls"><button data-action="play">Play</button><button data-action="pause">Pause</button><button data-action="seek" data-value="-10">−10 sec</button><button data-action="seek" data-value="10">+10 sec</button><button data-action="volumeDown">Volume −</button><button data-action="volumeUp">Volume +</button><button data-action="volume" data-value="0.5">Volume 50%</button><button data-action="stop">Stop</button></div></section>
+<script src="popup.js"></script></body></html>

@@ -1,0 +1,13 @@
+{
+  "id": "com.homecast.player",
+  "version": "1.0.2",
+  "vendor": "HomeCast",
+  "type": "web",
+  "main": "index.html",
+  "title": "HomeCast",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "resolution": "1920x1080",
+  "disableBackHistoryAPI": true,
+  "requiredACG": []
+}
